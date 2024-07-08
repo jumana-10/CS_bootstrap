@@ -1,21 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS_Bootstrap</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5
+    WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <header>
-        <div class="navContainer">
-          <nav class="navBar"></nav>
+  <header>
+    <!-- Navbar -->
+    <div class="navContainer align">
+      <nav class="navBar">
+        <div class="topBar grid-2">
+          <figure class="logoBar">
+            <img src="./assets/images/logo.png" alt="logo Img" />
+          </figure>
+          <ul class="navLinks d-flexNav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
-    
-        <div class="heroContainer">
-          <div class="heroSection"></div>
+      </nav>
+    </div>
+    <!-- Nav End -->
+
+    <!-- Hero Section -->
+    <div class="heroContainer align">
+      <div class="heroSection">
+        <div class="heroBody grid-1">
+          <div class="heroJumbotron d-flex-col">
+            <h1>Coffee Heaven</h1>
+            <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Adipisci Ipsa Id Vero Perferendis,
+              Reiciendis Dolores!</p>
+            <button type="">About Us</button>
+          </div>
         </div>
-      </header>
+      </div>
+    </div>
+
+    <!-- Hero Section End -->
+  </header>
+
+  <main>
+    <!-- about -->
+    <div class="aboutContainer align">
+      <div class="about">
+        <div class="aboutBody grid-2">
+          <figure class="aboutImage">
+            <img src="./assets/images/about-img.svg" alt="">
+          </figure>
+          <div class="aboutJumbotron d-flex-col-start">
+            <h2>A Cup Of Coffee Can Complete Your Day</h2>
+            <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Pariatur, Esse Corrupti. Incidunt
+              Fuga
+              Sit Numquam Est Consequatur Provident Ipsa Quidem! Lorem</p>
+            <button type="button">Our Menu</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- abour end -->
+
+    <!-- facility -->
+    <div class="facilityContainer align">
+      <div class="facility componentSpacing">
+        <div class="facilitytitle grid-1">
+          <div class="facilityHeading d-flex-col">
+            <figure class="headingImage">
+              <img src="./assets/images/heading-img.png" alt="">
+            </figure>
+            <h2>Our Facility</h2>
+          </div>
+        </div>
+
+        <div class="facilityBody grid-4">
+          <div class="varieties d-flex-col">
+            <div class="cardHeading">
+              <figure class="cardHeadingImage">
+                <img src="./assets/images/icon-1.png" alt="">
+              </figure>
+            </div>
+            <div class="cardBody">
+              <h3>Varieties Of Coffees</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="beans d-flex-col">
+            <div class="cardHeading">
+              <figure class="cardHeadingImage">
+                <img src="./assets/images/icon-2.png" alt="">
+              </figure>
+            </div>
+            <div class="cardBody">
+              <h3>Coffee Beans</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+          </div>
+
+          <div class="sweets d-flex-col">
+            <div class="cardHeading">
+              <figure class="cardHeadingImage">
+                <img src="./assets/images/icon-3.png" alt="">
+              </figure>
+            </div>
+            <div class="cardBody">
+              <h3>Breakfast And Sweets</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+          </div>
+
+          <div class="goCoffee d-flex-col">
+            <div class="cardHeading">
+              <figure class="cardHeadingImage">
+                <img src="./assets/images/icon-4.png" alt="">
+              </figure>
+            </div>
+            <div class="cardBody">
+              <h3>Ready to Go coffee</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- facility end -->
+  </main>
 </body>
+
 </html>
