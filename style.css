@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html {
+    /* font-size: 62.5%; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #5f9ea0; */
+    /* font-family: 'Merienda', cursive; */
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primaryColor : #ffffff;
+    --secondaryColor : #be9c79;
+    --textDarkColor : #000000;
+    --textLightColor : #EFEFEF;
+    --lightColor : #FFFFFF;
+    --headingFont : 54px;
+    --sebHeadingFont : 18px;
+    --paragraph : 16px;
+    --linkButton : 16px;
+    --contactHeight : 5vh
+}
+
+.align {
+    max-width :1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+/* Default code */
+
+/* Project code */
+/* parent container */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* parent container end */
+
+/* grid */
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* grid end */
+
+/* flex */
+.d-flexNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.d-flex-col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+/* flex end */
+
+/* navbar */
+
+.navContainer {
+    /* border: 1px solid black; */
+}
+
+.logoBar {
+    padding: 15px 0;
+}
+
+.logoBar img {
+    width: auto;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.navLinks li {
+    list-style-type: none;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* nav end here */
+
+/* heroSection */
+
+.heroSection {
+    background-color: brown;
+    background: url(./assets/images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 220px 0;
+}
+
+.heroBody {
+    width: 50%;
+    /* padding: 30px; */
+}
+
+.heroJumbotron h1 {
+    font-family: "Merienda", cursive;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.heroJumbotron p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.heroJumbotron button {
+    background-color: var(--secondaryColor);
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+}
+
+/* hero section end  */
+
+/* About */
+
+.aboutJumbotron{
+    padding: 1rem;
+}
+
+.aboutJumbotron h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Merienda', cursive;
+    margin-bottom: 1rem;
+}
+
+.aboutJumbotron p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aboutJumbotron button {
+    font-size: 1rem;
+    padding: 10px 30px;
+    background-color: var(--secondaryColor);
+    border: none;
+    color: #ffffff;
+}
+
+/* About end */
+
+/* Facility */
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+.headingImage img {
+    height: 2.5rem;
+}
+
+.facilityHeading h2{
+    font-family: 'Merienda', cursive;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.facilityBody {
+    padding: 1rem;
+}
+
+.cardBody h3 {
+    margin: 0.5rem 0;
+    font-weight: 400;
+}
+
+.cardBody p {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+/* Facility End */
+
+/* Menu */
+
+.headingImage img {
+    height: 2.5rem;
+}
+
+.menuHeading h2 {
+    font-size: 2.5rem;
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+}
+
+.cardImage img {
+    /* width: 80%; */
+    height: auto;
+    margin-top: 25px;
+}
+
+.cardBody h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Menu End */
+
+/* gallery */
+
+.headingImage img {
+    height: 2.5rem;
+}
+
+.galleryHeading h2 {
+    font-size: 2.5rem;
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+}
+
+.cardImg img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    padding: 10px;
+}
+
+/* gallery end */
+
+/* team */
+
+/* team */
+
+.headingImage img {
+    height: 2.5rem;
+}
+
+.teamHeading h2 {
+    font-size: 2.5rem;
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+}
+
+.cardImage {
+    margin-top: 15px;
+}
+
+.teamBody {
+    padding: 0 3rem;
+}
+
+.cardImage img {
+    width: 100%;
+    aspect-ratio: 3 / 2.8;
+    padding: 0 15px;
+}
+
+.cardBody h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* team end */
+
+/* contact */
+
+.headingImage img {
+    height: 2.5rem;
+}
+
+.contactHeading h2 {
+    font-size: 2.5rem;
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+}
+
+.contactForm {
+    margin: 6rem 0 3rem 0;
+    border: 1px solid black;
+}
+
+.contactForm h3 {
+    margin: 10px;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.formGroup input {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+.formGroup button {
+    padding: 10px 25px;
+    font-size: 1.3rem;
+    background-color: #be9c79;
+    color: #ffffff;
+    border: none;
+    margin: 20px;
+}
+
+/* contact end */
+
+/* ContactIcons */
+
+.iconImage {
+    background-color: #be9c79;
+    padding: 5px 15px;
+    border-radius: 50%;
+}
+
+.iconImage h3 {
+    font-size: 2.3rem;
+    color: #ffffff;
+}
+
+.fa-location-dot {
+    padding: 5px;
+}
+
+.footerBody h4 {
+    margin: 12px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.footerBody p {
+    margin: 0 0 2rem;
+    font-size: 1.2rem;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.copyRightContainer h6 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+/* Contact Icon End */
