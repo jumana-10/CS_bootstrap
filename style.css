@@ -17,7 +17,7 @@ html {
 body {
     /* background-color: #5f9ea0; */
     /* font-family: 'Merienda', cursive; */
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 :root {
@@ -115,6 +115,15 @@ footer {
     align-items: flex-start;
     text-align: left;
 }
+
+.d-flex-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
 /* flex end */
 
 /* navbar */
@@ -158,7 +167,7 @@ footer {
 }
 
 .heroBody {
-    width: 50%;
+    width: 48%;
     /* padding: 30px; */
 }
 
@@ -233,7 +242,7 @@ footer {
 
 .cardBody h3 {
     margin: 0.5rem 0;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .cardBody p {
@@ -381,7 +390,7 @@ footer {
 }
 
 .fa-location-dot {
-    padding: 5px;
+    padding: 4px;
 }
 
 .footerBody h4 {
