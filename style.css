@@ -211,7 +211,7 @@ footer {
 }
 
 .aboutJumbotron button {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 10px 30px;
     background-color: var(--secondaryColor);
     border: none;
@@ -347,7 +347,7 @@ footer {
 }
 
 .contactForm {
-    margin: 6rem 0 3rem 0;
+    margin: 6rem 0 4rem 0;
     border: 1px solid black;
 }
 
@@ -361,7 +361,7 @@ footer {
 .formGroup input {
     width: 90%;
     padding: 15px;
-    margin: 10px 20px;
+    margin: 10px 26px;
     font-size: 20px;
 }
 
