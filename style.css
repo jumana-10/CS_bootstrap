@@ -139,12 +139,13 @@ footer {
 
 .logoBar img {
     width: auto;
-    height: 60px;
-    margin-left: 30%;
+    height: 50px;
+    margin-left: 20%;
 }
 
 .navLinks {
-    width: 80%;
+    width: 75%;
+    margin-left: 40px;
 }
 
 .navLinks li {
