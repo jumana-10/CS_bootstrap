@@ -130,16 +130,21 @@ footer {
 
 .navContainer {
     /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .logoBar {
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 .logoBar img {
     width: auto;
     height: 60px;
-    margin-left: 20px;
+    margin-left: 30%;
+}
+
+.navLinks {
+    width: 80%;
 }
 
 .navLinks li {
