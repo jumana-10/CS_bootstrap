@@ -39,7 +39,7 @@ body {
 }
 
 .componentSpacing {
-    padding: 1rem 0;
+    padding-top: 3rem;
 }
 
 /* Default code */
@@ -129,7 +129,7 @@ footer {
 /* navbar */
 
 .navBar {
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
 }
 
@@ -140,11 +140,11 @@ footer {
 .logoBar img {
     width: auto;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 20%;
 }
 
 .navLinks {
-    width: 90%;
+    width: 75%;
     margin-left: 40px;
 }
 
@@ -173,7 +173,7 @@ footer {
 }
 
 .heroBody {
-    width: 48%;
+    width: 45%;
     /* padding: 30px; */
 }
 
@@ -185,7 +185,7 @@ footer {
 
 .heroJumbotron p {
     font-size: 1rem;
-    margin: 0 0 15px 20px;
+    margin: 0 0 15px 50px;
 }
 
 .heroJumbotron button {
@@ -228,10 +228,6 @@ footer {
 /* About end */
 
 /* Facility */
-
-.componentSpacing {
-    padding: 3rem 0;
-}
 
 .headingImage img {
     height: 2.5rem;
@@ -276,7 +272,7 @@ footer {
 .cardImage img {
     /* width: 80%; */
     height: auto;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .cardBody h4 {
