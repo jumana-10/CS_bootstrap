@@ -306,6 +306,10 @@ footer {
 
 /* team */
 
+.teamTitle {
+    padding-top: 1.5rem;
+}
+
 .headingImage img {
     height: 2.5rem;
 }
