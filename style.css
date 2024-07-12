@@ -15,7 +15,6 @@ html {
 }
 
 body {
-    /* background-color: #5f9ea0; */
     /* font-family: 'Merienda', cursive; */
     font-family: "Nunito Sans", sans-serif;
 }
@@ -46,6 +45,7 @@ body {
 /* Default code */
 
 /* Project code */
+
 /* parent container */
 
 header {
@@ -128,9 +128,9 @@ footer {
 
 /* navbar */
 
-.navContainer {
-    /* border: 1px solid black; */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+.navBar {
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
 }
 
 .logoBar {
@@ -140,11 +140,11 @@ footer {
 .logoBar img {
     width: auto;
     height: 50px;
-    margin-left: 20%;
+    margin-left: 20px;
 }
 
 .navLinks {
-    width: 75%;
+    width: 90%;
     margin-left: 40px;
 }
 
@@ -185,13 +185,14 @@ footer {
 
 .heroJumbotron p {
     font-size: 1rem;
-    margin-bottom: 15px;
+    margin: 0 0 15px 20px;
 }
 
 .heroJumbotron button {
     background-color: var(--secondaryColor);
-    padding: 10px 30px;
+    padding: 13px 30px;
     font-size: 1.2rem;
+    margin-top: 5px;
     border: none;
     color: white;
 }
